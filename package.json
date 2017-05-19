@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "platform2",
   "version": "1.0.0",
   "description": "game",
@@ -8,4 +9,29 @@
   },
   "author": "parks",
   "license": "MIT"
+=======
+  "name": "browser-games",
+  "version": "0.0.0",
+  "description": "A collection of games to play in a web browser.",
+  "scripts": {
+    "start": "http-server ./public -p 4321"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuildCrafts/browser-games.git"
+  },
+  "keywords": [
+    "games",
+    "browser"
+  ],
+  "author": "Learners Guild",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GuildCrafts/browser-games/issues"
+  },
+  "homepage": "https://github.com/GuildCrafts/browser-games#readme",
+  "dependencies": {
+    "http-server": "^0.9.0"
+  }
+>>>>>>> 14e4d351dd398613527f3704e93e602e27e1da54
 }
